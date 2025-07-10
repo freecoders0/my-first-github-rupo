@@ -36,6 +36,17 @@
     font-weight: bold;
 }
 
+.section-titles{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+}
+
 
 /* herader */
 header{
@@ -126,3 +137,45 @@ nav ul li a{
     height: 686px;
    
 }
+
+/* 
+main style */
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    background-color: #FFF8F3;
+    margin: 94px 0px;
+    text-align: center;
+    padding: 130px 150px;
+}
+
+.about-content{
+    background-color: white;
+}
+
+.about-description{
+    margin: 30px 0px;
+    font-size: 18px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item .heading{
+    color: #757575;
+    font-weight: 300;
+}
+.about-item .description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
