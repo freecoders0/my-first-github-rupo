@@ -48,6 +48,11 @@
 }
 
 
+.text-align{
+    text-align: center;
+}
+
+
 /* herader */
 header{
     background-image: url(images/developer.png), url(images/header_bg.png);
@@ -147,9 +152,21 @@ main{
     margin: 0 auto;
 }
 
+
+main section{
+    margin: 130px 0px;
+}
+
+
+
+
+/* about section  */
+
+
+
 .about{
     background-color: #FFF8F3;
-    margin: 94px 0px;
+    
     text-align: center;
     padding: 130px 150px;
 }
@@ -177,5 +194,34 @@ main{
     font-weight: bold;
 }
 
+
+
+
+
+/* skills section  */
+
+.skills-main-description{
+    margin: 30px 0px 50px 0px;
+}
+
+.skills{
+
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+
+.skill-heading{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.skill-description{
+    font-size: 16px;
+}
 
 
